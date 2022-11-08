@@ -19,7 +19,7 @@ if image is not None:
 
   st.write("### Object Detection Result with YOLO")
 
-  net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+  net = cv2.dnn.readNet("yolov3.cfg", "yolov3.weights")
   classes = []
 
   with open("coco.names", "r") as f:
