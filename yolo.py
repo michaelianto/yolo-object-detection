@@ -4,6 +4,8 @@ import os
 import numpy as np
 from PIL import Image
 
+print(cv2.__version__)
+
 st.write("""
 # Object Detection with YOLO v3
 """)
